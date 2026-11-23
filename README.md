@@ -1,27 +1,32 @@
-# Leaf Runner
+# Python Eggs
 
-A polished original side-scrolling platform game served locally with Python.
+A Python Tkinter Snake game.
 
 ## Run
 
 ```powershell
-python server.py
+python snake_game.py
 ```
 
-The game opens automatically at `http://127.0.0.1:8000`.
+No third-party packages are required.
 
 ## Controls
 
 - Arrow keys or WASD: move
-- Up, W, or Space: jump
-- Escape or P: pause
-- On-screen buttons or swipe: mobile controls
+- Space or Escape: pause
+- Enter: start or restart
+- 1, 2, or 3: choose a snake avatar
+- Mouse: click an avatar card to select it
 
 ## Features
 
-- Side-scrolling platform physics
-- Coins and enemy stomp mechanics
-- A finish flag and level completion state
-- Persistent local high score
-- Particle effects and generated Web Audio sounds
-- Desktop and mobile controls
+- Snake grows after eating an egg
+- Wall and self-collision game over
+- Five eggs per level
+- Speed increases every level
+- Rocks appear in later levels
+- High score saved in `high_score.txt`
+- Choose from Naseef, Nasrin, or Neeraj snake avatars
+- Avatar selection appears before the first game and after game over
+- The selected avatar continues through level changes
+- Each new level starts the snake in a safe center position
