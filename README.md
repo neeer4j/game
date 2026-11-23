@@ -5,18 +5,25 @@ A Python Tkinter Snake game.
 ## Run
 
 ```powershell
-python snake_game.py
+python main.py
 ```
 
 No third-party packages are required.
+
+The source is separated into:
+
+- `main.py` for the Tkinter interface
+- `logic.py` for the game class and processing
+- `data/avatars.json` for avatar data
+- `data/high_score.json` for saved high scores
 
 ## Controls
 
 - Arrow keys or WASD: move
 - Space or Escape: pause
 - Enter: start or restart
+- Click/tap an avatar card: choose that avatar
 - 1, 2, or 3: choose a snake avatar
-- Mouse: click an avatar card to select it
 
 ## Features
 
